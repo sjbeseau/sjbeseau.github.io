@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../assets/oldmap.jpg');
+  background-color: rgba(255,255,255,0.55);
+  background-blend-mode: lighten;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed; 
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  max-width: 1018px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.top {
+  padding-top: 200px;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.navbar-brand {
+  width: 100%;
+  flex-flow: wrap;
+  align-items: center;
+}
+
+.navbar-item {
+  height: 50px;
+  width: 20%;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.footer {
+  color: #000;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.main-container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  border: 3px solid #2A3132;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+.title {
+  font-family: 'Gentium Basic', serif;
+}
+
+p {
+  margin: 25px;
+  color: #2A3132;
+  font-family: 'Varela Round', sans-serif; 
+}
+
+.footer {
+  width: 100%;
+  padding: 14px 10px 14px 10px;
+  max-width: 1018px;
+  font-size: .75em;
+}
+
+.navbar-brand , .footer, .logo {
+  background-color: #d2b48c;
+}
+
+p, .footer, .title {
+  text-align: center;
+}
+
+li {
+  margin: 25px;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 50px;  
+}
+
+.breakfast {
+  background-image: url("../assets/buttermilkpancakes.jpg");
+  min-height: 696px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lunch {
+  background-image: url("../assets/creambroccolisoup.jpg");
+  min-height: 696px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dinner {
+  background-image: url("../assets/pulledpork.jpg");
+  min-height: 696px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#anchorOne, #anchorTwo, #anchorThree, #anchorFour, #anchorFive, #anchorSix, #anchorSeven {
+    display: block;
+    position: relative;
+    top: -175px;
+    visibility: hidden;
+}
+
+a:visited , a:link {
+    color: #2A3132;
+}
+
+a:hover {
+    color: #8cbed2;
+}
+
+.center {
+  margin : 0 auto;
+  text-align : center;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  header {
+    position: relative;
+    top: -3px;
+  }
+  
+  .navbar-brand {
+    flex-direction: column;
+  }
+  
+  .navbar-item {
+    Width: 100%;
+  }
+  
+  .top {
+    padding-top: 25px;
+  }
+}
