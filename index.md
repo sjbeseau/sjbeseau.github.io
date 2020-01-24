@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -253,4 +252,3 @@
     <div class="footer"><i class="far fa-copyright"></i> Steven Beseau | background <i class="far fa-copyright"></i> Wallpaper21.com</div>
 </div>
 </body>
-</html>
